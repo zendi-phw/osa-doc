@@ -236,13 +236,11 @@ Die Kernfunktionen des OSAs sollen folgende Aspekte umfassen:
 
   - [Admin-Einstellungen](#admineinstellungen)
   - [Erste Anlage des OSAs](#ersteanlageosa)
-  - [Useransicht Selbst- und
-    Fremdeinschätzung](#useransichtselbstundfremdeinschaetzung)
-  - [Einstellungen zu den
-    Fragetypologien](#einstellungenfragetypologien)
+  - [Useransicht Selbst- und Fremdeinschätzung](#useransichtselbstundfremdeinschaetzung)
+  - [Einstellungen zu den Fragetypologien](#einstellungenfragetypologien)
   - [Feedbackeinstellungen](#feedbackeinstellungen)
 
-![Scribble Übersicht](/images/scribble-osa.png)
+![Scribble Übersicht](/images/scribble-osa.svg "Scribble Übersicht")
 
 ## Admin-Einstellungen
 
@@ -285,12 +283,11 @@ OSAs zu teilen.
 
 ### Realisierungsaspekte
 
-  - Setze Standardeinstellungen (Durch Lehrende veränderbar/nicht
-    veränderbar) für OSA Elemente (Frage/Struktur/Dashboard)
+  - Setze Standardeinstellungen (Durch Lehrende veränderbar/nicht veränderbar) für OSA Elemente (Frage/Struktur/Dashboard)
 
 ### Scribble Admin-Einstellungen
 
-![Scribble Admin-Einstellungen](/images/scribble-adminsettings.png
+![Scribble Admin-Einstellungen](/images/scribble-adminsettings.svg
 "Scribble Admin-Einstellungen")
 
 ## Initiale Erstellung einer OSA Aktivität
@@ -346,7 +343,7 @@ der Titel des Projekts eingestellt werden.
 ### Scribble erste Anlage des OSAs
 
 ![Scribble Initiale Erstellung einer OSA
-Aktivität](/images/scribble-erste-anlage-des-osa.png
+Aktivität](/images/scribble-erste-anlage-des-osa.svg
 "Scribble Initiale Erstellung einer OSA Aktivität")
 
 ## Useransicht Selbst- und Fremdeinschätzung
@@ -408,7 +405,7 @@ unterstützen.
 ### Scribble Useransicht Selbst- und Fremdeinschätzung
 
 ![Scribble Useransicht Selbst- und
-Fremdeinschätzung](/images/scribble-tn-selbst-und-fremdeinschaetzung.png
+Fremdeinschätzung](/images/scribble-tn-selbst-und-fremdeinschaetzung.svg
 "Scribble Useransicht Selbst- und Fremdeinschätzung")
 
 ## Einstellungen zu den Fragetypologien
@@ -538,7 +535,7 @@ Nutzer/innen.
 
 ### Scribble Feedbackeinstellungen
 
-![Scribble Feedbackeinstellungen](/images/scribble-feedback.png
+![Scribble Feedbackeinstellungen](/images/scribble-feedback.svg
 "Scribble Feedbackeinstellungen")
 
 # Idee für Zusatz-Plugin
@@ -575,11 +572,11 @@ aktuellen Empfehlungen eines OSAs als Popup angezeigt werden können.
 ### Scribble Zusatz-Plugin OSA Dashboard
 
 ![Scribble Zusatz-Plugin OSA
-Dashboard](/images/scribble-osa-dashboard.png
+Dashboard](/images/scribble-osa-dashboard.svg
 "Scribble Zusatz-Plugin OSA Dashboard")
 
 ![Scribble Zusatz-Plugin OSA Dashboard
-Detailansicht](/images/scribble-osa-dashboard-detail.png
+Detailansicht](/images/scribble-osa-dashboard-detail.svg
 "Scribble Zusatz-Plugin OSA Dashboard Detailansicht")
 
 # Programmierung
@@ -598,7 +595,7 @@ Arten von Grafiken zur Datenvisualisierung geeignet.
 
 Der Aufbau des OSA Plugins ist in folgender Ordnerstruktur abgebildet:
 
-![Ordnerstruktur OSA Plugin](/images/ordnerstruktur-osa-plugin.png
+![Ordnerstruktur OSA Plugin](/images/ordnerstruktur-osa-plugin.svg
 "Ordnerstruktur OSA Plugin")
 
 ### OSA Ordner
@@ -698,7 +695,7 @@ Fragetypologien](#fig:screenshot-mobile-ansicht-osa)).
 Buttons zum Hinzufügen von Fragetypologien **Rechts oben:**
 Nutzendenansicht Typ Multiple Choice **Links unten:** Nutzendenansicht
 des Typ Likert **Rechts unten:** Nutzendenansicht des Typ
-Likert](/images/screenshot-mobile-ansicht-osa.png
+Likert](/images/screenshot-mobile-ansicht-osa.svg
 "Mobile Ansicht OSA Plugin: **Links oben:** Lehrendenansicht mit Buttons zum Hinzufügen von Fragetypologien **Rechts oben:** Nutzendenansicht Typ Multipe Choice **Links unten:** Nutzendenansicht des Typ Likert **Rechts unten:** Nutzendenansicht des Typ Likert")
 
 Die Nutzeroberfläche ist so aufgebaut, dass per Klick auf die Buttons in
@@ -710,7 +707,7 @@ Auswertungseinstellungen](#fig:screenshot-screen-ansicht-hinzufuegen-von-fragety
 
 ![Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen
 Kategorien und
-Auswertungseinstellungen](/images/screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen.png
+Auswertungseinstellungen](/images/screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen.svg
 "Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen Kategorien und Auswertungseinstellungen")
 
 Um Items des Fragetyps Likert zu erstellen bietet die
@@ -718,7 +715,7 @@ Um Items des Fragetyps Likert zu erstellen bietet die
 vielfältige Möglichkeiten.
 
 ![Standardansicht OSA Plugin: Likert
-Einstellungsmaske](/images/screenshot-screen-ansicht-einstellungen-likert.png
+Einstellungsmaske](/images/screenshot-screen-ansicht-einstellungen-likert.svg
 "Standardansicht OSA Plugin: Likert Einstellungsmaske")
 
 Jede Darstellung der Frage kann im Bearbeitungsmodus durch die Buttons
@@ -727,7 +724,7 @@ bearbeitet oder gelöscht oder nach oben oder unten verschoben werden
 Bearbeitungsmodus](#fig:screenshot-screen-ansicht-bearbeiten-modus-fragetypologien)).
 
 ![Standardansicht OSA Plugin:
-Bearbeitungsmodus](/images/screenshot-screen-ansicht-bearbeiten-modus-fragetypologien.png
+Bearbeitungsmodus](/images/screenshot-screen-ansicht-bearbeiten-modus-fragetypologien.svg
 "Standardansicht OSA Plugin: Bearbeitungsmodus")
 
 Ist eine Bearbeitung durch die Nutzer/innen zum jetzigen Zeitpunkt nicht
@@ -735,14 +732,14 @@ möglich erscheint ein
 [Durchführungsinformationsbanner](#fig:screenshot-standardansicht-osa-sperre).
 
 ![Standardansicht OSA Plugin:
-Durchführungsinformationsbanner](/images/screenshot-screen-ansicht-osa-sperre.png
+Durchführungsinformationsbanner](/images/screenshot-screen-ansicht-osa-sperre.svg
 "Standardansicht OSA Plugin: Durchführungsinformationsbanner")
 
 Die [Standardansicht des OSAs aus
 Nutzer-/innensicht](#fig:screenshot-standardansicht-osa) wird gezeigt
 sollte eine Bearbeitung möglich sein.
 
-![Standardansicht OSA Plugin](/images/screenshot-screen-ansicht-osa.png
+![Standardansicht OSA Plugin](/images/screenshot-screen-ansicht-osa.svg
 "Standardansicht OSA Plugin")
 
 Im nächsten Schritt, nach Speicherung der Eingaben durch die
@@ -751,7 +748,7 @@ die einzelnen Fragetypologien
 [rückgemeldet](#fig:screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt).
 
 ![Standardansicht OSA Plugin:
-Ergebnisse](/images/screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt.png
+Ergebnisse](/images/screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt.svg
 "Standardansicht OSA Plugin: Ergebnisse")
 
 Schlussendlich gibt es Feedback mit individuellen Empfehlungen. Das
@@ -766,7 +763,7 @@ Ergebnisse](#fig:screenshot-screen-ansicht-ergebnis-kat-grafik-feedback)).
 
 ![Standardansicht OSA Plugin: Ergebnisse mit Kategoriebeschreibung,
 Grafik, Feedbacktext und Download Button für den Download als
-PDF](/images/screenshot-screen-ansicht-ergebnis-kat-grafik-feedback.png
+PDF](/images/screenshot-screen-ansicht-ergebnis-kat-grafik-feedback.svg
 "Standardansicht OSA Plugin: Ergebnisse mit Kategoriebeschreibung, Grafik, Feedbacktext und Download Button für den Download als PDF")
 
 Eine exemplarische grafische Umsetzung zu den Anforderungen aus dem
@@ -774,7 +771,7 @@ Projekt KomDiKoLa mithilfe von D3.js könnte folgendermaßen aussehen:
 
 ![Standardansicht OSA Plugin: Exemplarische Umsetzung D3.js
 Feedbackgrafik
-KomDiKoLa](/images/screenshot-exemplarische-grafik-komdikola.png
+KomDiKoLa](/images/screenshot-exemplarische-grafik-komdikola.svg
 "Standardansicht OSA Plugin: Exemplarische Umsetzung D3.js Feedbackgrafik KomDiKoLa")
 
 ### Exemplarische technische Umsetzung
@@ -790,7 +787,7 @@ in der lib.php übergeben. Diese Funktion berechnet alle nötigen Werte,
 um später Grafiken für die Auswertung erstellen zu können.
 
 ![Codebeispiel OSA Plugin: Funktion
-osa\_calculate\_answer\_data\_for\_boxplot](/images/screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot.png
+osa\_calculate\_answer\_data\_for\_boxplot](/images/screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot.svg
 "Codebeispiel OSA Plugin: Funktion osa_calculate_answer_data_for_boxplot")
 
 Die Rückgabewerte der Funktion
@@ -803,7 +800,7 @@ Variablen](#fig:screenshot-code-ansicht-get-data-from-function-and-assign-to-var
 
 ![Codebeispiel OSA Plugin: Zuordnung der Rückgabewerte der Funktion
 osa\_calculate\_answer\_data\_for\_boxplot zu PHP
-Variablen](/images/screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot.png
+Variablen](/images/screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot.svg
 "Codebeispiel OSA Plugin: Zuordnung der Rückgabewerte der Funktion osa_calculate_answer_data_for_boxplot zu PHP Variablen")
 
 Die PHP Variablen werden den mustache Variablen zugeordnet (siehe
@@ -814,14 +811,14 @@ mustache Variable an
 Template](#fig:screenshot-code-pass-to-mustache-template)).
 
 ![Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache
-Variable](/images/screenshot-code-ansicht-assign-var-to-template.png
+Variable](/images/screenshot-code-ansicht-assign-var-to-template.svg
 "Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache Variable")
 
 Die mustache Variablen werden an das Template viewresults.mustache
 übergeben.
 
 ![Codebeispiel OSA Plugin: Übergebe mustache Variable an
-Template](/images/screenshot-code-pass-to-mustache-template.png
+Template](/images/screenshot-code-pass-to-mustache-template.svg
 "Codebeispiel OSA Plugin: Übergebe mustache Variable an Template")
 
 Im [Template](#fig:screenshot-code-template-vars-cat-01) wird das
@@ -855,7 +852,7 @@ hinzugefügt werden.
 
 ![Codebeispiel OSA Plugin: Kategorie mit JS Variablen, welche an die
 spezifischen D3.js übergeben
-werden](/images/screenshot-code-template-vars-cat-01.png
+werden](/images/screenshot-code-template-vars-cat-01.svg
 "Codebeispiel OSA Plugin: Kategorie mit JS Variablen, welche an die spezifischen D3.js übergeben werden")
 
 #### Technische Besonderheit bei der Änderung der Fragenanordnung
@@ -870,7 +867,7 @@ die Werte in der Sort Spalte getauscht
 (edit\_questiontype\_move{up,down}.php).
 
 ![Datenbank OSA Plugin: Tabelle
-mdl\_osa\_qtype\_collection](/images/screenshot-db-mdl-osa-qtype-collection.png
+mdl\_osa\_qtype\_collection](/images/screenshot-db-mdl-osa-qtype-collection.svg
 "Datenbank OSA Plugin: Tabelle mdl_osa_qtype_collection")
 
 #### Technische Konzeption Export der Ergebnisse in einer PDF
@@ -947,7 +944,7 @@ Kanbanboards mit Kanbankarten unterstützten den Entwicklungsprozess
 massiv. Eine der einfachen Kanbankarten aus dem Projekt ist in [Ansicht
 einfache Kanbankarte](#fig:screenshot-screen-kanban) zu sehen.
 
-![Ansicht einfache Kanbankarte](/images/screenshot-screen-kanban.png
+![Ansicht einfache Kanbankarte](/images/screenshot-screen-kanban.svg
 "Ansicht einfache Kanbankarte")
 
 # Anwendertests mit der Zielgruppe
