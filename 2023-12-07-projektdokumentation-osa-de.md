@@ -242,7 +242,7 @@ Die Kernfunktionen des OSAs sollen folgende Aspekte umfassen:
     Fragetypologien](#einstellungenfragetypologien)
   - [Feedbackeinstellungen](#feedbackeinstellungen)
 
-![Scribble Übersicht](/images/scribble-osa.png "Scribble Übersicht")
+![Scribble Übersicht](/images/scribble-osa.png)
 
 ## Admin-Einstellungen
 
