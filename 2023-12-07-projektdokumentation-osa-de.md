@@ -457,7 +457,7 @@ Nutzer/innen.
 
   - Darstellung der Likertskala zum Ankreuzen für Teilnehmende des OSAs
     (siehe [Scribble Useransicht Selbst- und
-    Fremdeinschätzung](#fig:scribble-tn-selbst-und-fremdeinschaetzung))
+    Fremdeinschätzung](#fig-scribble-tn-selbst-und-fremdeinschaetzung))
   - Darstellung der Likertskala zum Ankreuzen für TN des OSAs, welche
     andere TN bewerten
   - Darstellung der Likertskala bei der Auswertung
@@ -477,7 +477,7 @@ Nutzer/innen.
 
   - Darstellung des Textfelds für Teilnehmende des OSAs (siehe [Scribble
     Useransicht Selbst- und
-    Fremdeinschätzung](#fig:scribble-tn-selbst-und-fremdeinschaetzung))
+    Fremdeinschätzung](#fig-scribble-tn-selbst-und-fremdeinschaetzung))
   - Fremdeinschätzung: Darstellung des Textfelds
   - Darstellung des Textfelds bei der Auswertung
   - Weiterverarbeitung durch D3.js?
@@ -693,7 +693,7 @@ Das Design des Plugins ist an das Standardtheme von Moodle 4.x angelehnt
 und ist sowohl auf klassischen Desktopsystemen als auch auf mobilen
 Endgeräten bequem verwendbar (siehe [Mobile Ansicht OSA Plugin: **Links
 oben:** Lehrendenansicht mit Buttons zum Hinzufügen von
-Fragetypologien](#fig:screenshot-mobile-ansicht-osa)).
+Fragetypologien](#fig-screenshot-mobile-ansicht-osa)).
 
 ![Mobile Ansicht OSA Plugin: **Links oben:** Lehrendenansicht mit
 Buttons zum Hinzufügen von Fragetypologien **Rechts oben:**
@@ -707,7 +707,7 @@ chronologischer Reihenfolge das OSA von der lehrenden Person
 eingerichtet, Fragetypen hinzugefügt und Auswertungseinstellungen
 festgelegt werden können (siehe [Ansicht OSA Plugin: Buttons
 Fragetypologien und weitere Einstellungen Kategorien und
-Auswertungseinstellungen](#fig:screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)).
+Auswertungseinstellungen](#fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)).
 
 ![Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen
 Kategorien und
@@ -715,7 +715,7 @@ Auswertungseinstellungen](/images/screenshot-screen-ansicht-hinzufuegen-von-frag
 "Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen Kategorien und Auswertungseinstellungen")
 
 Um Items des Fragetyps Likert zu erstellen bietet die
-[Einstellungsmaske](#fig:screenshot-standardansicht-osa-sperre)
+[Einstellungsmaske](#fig-screenshot-standardansicht-osa-sperre)
 vielfältige Möglichkeiten.
 
 ![Standardansicht OSA Plugin: Likert
@@ -725,7 +725,7 @@ Einstellungsmaske](/images/screenshot-screen-ansicht-einstellungen-likert.svg
 Jede Darstellung der Frage kann im Bearbeitungsmodus durch die Buttons
 bearbeitet oder gelöscht oder nach oben oder unten verschoben werden
 (siehe [Standardansicht OSA Plugin:
-Bearbeitungsmodus](#fig:screenshot-screen-ansicht-bearbeiten-modus-fragetypologien)).
+Bearbeitungsmodus](#fig-screenshot-screen-ansicht-bearbeiten-modus-fragetypologien)).
 
 ![Standardansicht OSA Plugin:
 Bearbeitungsmodus](/images/screenshot-screen-ansicht-bearbeiten-modus-fragetypologien.svg
@@ -733,14 +733,14 @@ Bearbeitungsmodus](/images/screenshot-screen-ansicht-bearbeiten-modus-fragetypol
 
 Ist eine Bearbeitung durch die Nutzer/innen zum jetzigen Zeitpunkt nicht
 möglich erscheint ein
-[Durchführungsinformationsbanner](#fig:screenshot-standardansicht-osa-sperre).
+[Durchführungsinformationsbanner](#fig-screenshot-standardansicht-osa-sperre).
 
 ![Standardansicht OSA Plugin:
 Durchführungsinformationsbanner](/images/screenshot-screen-ansicht-osa-sperre.svg
 "Standardansicht OSA Plugin: Durchführungsinformationsbanner")
 
 Die [Standardansicht des OSAs aus
-Nutzer-/innensicht](#fig:screenshot-standardansicht-osa) wird gezeigt
+Nutzer-/innensicht](#fig-screenshot-standardansicht-osa) wird gezeigt
 sollte eine Bearbeitung möglich sein.
 
 ![Standardansicht OSA Plugin](/images/screenshot-screen-ansicht-osa.svg
@@ -749,7 +749,7 @@ sollte eine Bearbeitung möglich sein.
 Im nächsten Schritt, nach Speicherung der Eingaben durch die
 Nutzer/innen, werden die Ergebnisse der ausfüllenden Person bezogen auf
 die einzelnen Fragetypologien
-[rückgemeldet](#fig:screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt).
+[rückgemeldet](#fig-screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt).
 
 ![Standardansicht OSA Plugin:
 Ergebnisse](/images/screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt.svg
@@ -763,7 +763,7 @@ das individuelle Feedback mit Vergleichen zu festgelegten Werten durch
 die lehrende Person und ein Button zum Erstellen eines zukünftigen
 Ergebnisberichts im PDF Format dargeboten (siehe [Standardansicht OSA
 Plugin:
-Ergebnisse](#fig:screenshot-screen-ansicht-ergebnis-kat-grafik-feedback)).
+Ergebnisse](#fig-screenshot-screen-ansicht-ergebnis-kat-grafik-feedback)).
 
 ![Standardansicht OSA Plugin: Ergebnisse mit Kategoriebeschreibung,
 Grafik, Feedbacktext und Download Button für den Download als
@@ -786,7 +786,7 @@ Im Folgenden wird anhand von Codebeispielen kurz beschrieben, wie in der
 Ergebnisdarstellung technisch Modularität implementiert wird.
 Zuallererst werden die eingegebenen Daten der Nutzer/innen aus der
 Datenbank geholt. Diese werden an die Funktion
-[osa\_calculate\_answer\_data\_for\_boxplot](#fig:screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot)
+[osa\_calculate\_answer\_data\_for\_boxplot](#fig-screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot)
 in der lib.php übergeben. Diese Funktion berechnet alle nötigen Werte,
 um später Grafiken für die Auswertung erstellen zu können.
 
@@ -800,7 +800,7 @@ zugeordnet. Dies geschieht für alle Antworten, welche ihrerseits je
 einer Fragekategorie zugeordnet sind (siehe [Codebeispiel OSA Plugin:
 Zuordnung der Rückgabewerte der Funktion
 osa\_calculate\_answer\_data\_for\_boxplot zu PHP
-Variablen](#fig:screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot)).
+Variablen](#fig-screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot)).
 
 ![Codebeispiel OSA Plugin: Zuordnung der Rückgabewerte der Funktion
 osa\_calculate\_answer\_data\_for\_boxplot zu PHP
@@ -809,10 +809,10 @@ Variablen](/images/screenshot-code-ansicht-get-data-from-function-and-assign-to-
 
 Die PHP Variablen werden den mustache Variablen zugeordnet (siehe
 [Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache
-Variable](#fig:screenshot-code-ansicht-assign-var-to-template)) und an
+Variable](#fig-screenshot-code-ansicht-assign-var-to-template)) und an
 das Template geschickt (siehe [Codebeispiel OSA Plugin: Übergebe
 mustache Variable an
-Template](#fig:screenshot-code-pass-to-mustache-template)).
+Template](#fig-screenshot-code-pass-to-mustache-template)).
 
 ![Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache
 Variable](/images/screenshot-code-ansicht-assign-var-to-template.svg
@@ -825,7 +825,7 @@ Die mustache Variablen werden an das Template viewresults.mustache
 Template](/images/screenshot-code-pass-to-mustache-template.svg
 "Codebeispiel OSA Plugin: Übergebe mustache Variable an Template")
 
-Im [Template](#fig:screenshot-code-template-vars-cat-01) wird das
+Im [Template](#fig-screenshot-code-template-vars-cat-01) wird das
 Aussehen der Darstellung der einzelnen Bestandteile -
 Kategoriebeschreibung, die grafische Aufbereitung der Ergebnisse und das
 individuelle Feedback - in den vorher festgelegten Kategorien definiert.
@@ -851,7 +851,7 @@ osa/nameofgrafiktemplate}}` die Variablen immer in das gewünschte
 Template übergeben werden. Eine weitere Einstellungsoption, welches
 Template verwendet werden soll, muss noch programmiert werden und könnte
 als weiterer Punkt am Ende zu den
-[Einstellungsbuttons](#fig:screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)
+[Einstellungsbuttons](#fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)
 hinzugefügt werden.
 
 ![Codebeispiel OSA Plugin: Kategorie mit JS Variablen, welche an die
@@ -866,7 +866,7 @@ Fragenanordnung zu ändern. Alleine PHP und die Datenbank reichen aus, um
 dieses Ziel zu realisieren. Wird der Button zum Verschieben der Frage
 nach oben geklickt, wird geprüft welches der nächste Eintrag mit
 [kleinerer Sort Id und derselben zugehörigen
-Kursmodulid](#fig:screenshot-db-mdl-osa-qtype-collection) ist und dabei
+Kursmodulid](#fig-screenshot-db-mdl-osa-qtype-collection) ist und dabei
 die Werte in der Sort Spalte getauscht
 (edit\_questiontype\_move{up,down}.php).
 
@@ -946,7 +946,7 @@ anderem wurde die Methode des Extreme Programming praktiziert.
 Verschiedene Werkzeuge, wie beispielsweise der Einsatz eines
 Kanbanboards mit Kanbankarten unterstützten den Entwicklungsprozess
 massiv. Eine der einfachen Kanbankarten aus dem Projekt ist in [Ansicht
-einfache Kanbankarte](#fig:screenshot-screen-kanban) zu sehen.
+einfache Kanbankarte](#fig-screenshot-screen-kanban) zu sehen.
 
 ![Ansicht einfache Kanbankarte](/images/screenshot-screen-kanban.svg
 "Ansicht einfache Kanbankarte")
@@ -968,7 +968,7 @@ Testpersonen können gezogen werden:
   - Der Prozess zum Anlegen aus Sicht der Zielgruppe ist logisch
     aufgebaut (siehe [Ansicht OSA Plugin: Buttons Fragetypologien und
     weitere Einstellungen Kategorien und
-    Auswertungseinstellungen](#fig:screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)).
+    Auswertungseinstellungen](#fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)).
   - Es besteht eine einfache für die Zielgruppe verständliche
     Möglichkeit Frage-Items der verschiedenen Fragetypologien direkt zu
     bearbeiten.
