@@ -10,7 +10,7 @@
 
 Übersicht über die Laufzeit der Konzeption und Programmierung
 
-# Hinweise zum Softwarereleasestatus {#hinweisesoftwarereleasestatus}
+# <a name="hinweisesoftwarereleasestatus"></a>Hinweise zum Softwarereleasestatus
 
 | Hinweise zum Softwarereleasestatus \[1\]                     | Datum          |
 | :----------------------------------------------------------- | :------------- |
@@ -200,7 +200,7 @@ Anforderungen aus dem Projekt TEgoDi/KomDiKoLa
 
 Anforderungen aus dem Projekt PHokus
 
-## <a name=""></a>Kurzübersicht Implikationen {#kurzuebersichtimplikationen}
+## <a name="kurzuebersichtimplikationen"></a>Kurzübersicht Implikationen
 
 | Technische Implikationen aus den Anforderungen                                                                           | Grad der Umsetzung | Kommentar                                                                         |
 | :----------------------------------------------------------------------------------------------------------------------- | :----------------- | :-------------------------------------------------------------------------------- |
@@ -230,7 +230,7 @@ Technische Implikationen aus den Anforderungen
 
 Visuelle Implikationen aus den Anforderungen
 
-# <a name=""></a>Kernfunktionen des OSAs
+# <a name="kernfunktionenosa"></a>Kernfunktionen des OSAs
 
 Die Kernfunktionen des OSAs sollen folgende Aspekte umfassen:
 
@@ -242,7 +242,7 @@ Die Kernfunktionen des OSAs sollen folgende Aspekte umfassen:
 
 ![Scribble Übersicht](/images/scribble-osa.svg "Scribble Übersicht")
 
-## Admin-Einstellungen
+## <a name="admineinstellungen"></a>Admin-Einstellungen
 
 Die Admin-Einstellungen werden benötigt, um entsprechende externe
 Libraries nachladen zu können (D3.js) und festzulegen welche Anzahl an
