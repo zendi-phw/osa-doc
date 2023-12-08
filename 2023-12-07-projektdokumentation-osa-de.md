@@ -695,6 +695,7 @@ Endgeräten bequem verwendbar (siehe [Mobile Ansicht OSA Plugin: **Links
 oben:** Lehrendenansicht mit Buttons zum Hinzufügen von
 Fragetypologien](#fig-screenshot-mobile-ansicht-osa)).
 
+<a name="fig-screenshot-mobile-ansicht-osa"></a>
 ![Mobile Ansicht OSA Plugin: **Links oben:** Lehrendenansicht mit
 Buttons zum Hinzufügen von Fragetypologien **Rechts oben:**
 Nutzendenansicht Typ Multiple Choice **Links unten:** Nutzendenansicht
@@ -709,15 +710,18 @@ festgelegt werden können (siehe [Ansicht OSA Plugin: Buttons
 Fragetypologien und weitere Einstellungen Kategorien und
 Auswertungseinstellungen](#fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)).
 
+<a name="fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen"></a>
 ![Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen
 Kategorien und
 Auswertungseinstellungen](/images/screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen.svg
 "Ansicht OSA Plugin: Buttons Fragetypologien und weitere Einstellungen Kategorien und Auswertungseinstellungen")
 
+
 Um Items des Fragetyps Likert zu erstellen bietet die
 [Einstellungsmaske](#fig-screenshot-standardansicht-osa-sperre)
 vielfältige Möglichkeiten.
 
+<a name="fig-screenshot-standardansicht-osa-sperre"></a>
 ![Standardansicht OSA Plugin: Likert
 Einstellungsmaske](/images/screenshot-screen-ansicht-einstellungen-likert.svg
 "Standardansicht OSA Plugin: Likert Einstellungsmaske")
