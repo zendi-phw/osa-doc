@@ -841,7 +841,7 @@ osa/boxplot}}` in das aktuelle Template eingebunden. Das bringt den
 Vorteil, dass das Aussehen der jeweiligen Grafik mit einzelnen
 Änderungen für alle Kategorien gleichzeitig angepasst werden kann.
 
-<span id="dest:zukuenftigeoptiontemplate">Weitergedacht</span> lässt
+<span name="dest:zukuenftigeoptiontemplate">Weitergedacht</span> lässt
 sich dieses System soweit anpassen, dass zwar immer alle Variablen der
 Variable-Value-Zuordnung, wie beispielsweise `var median =
 {{mediancat01}}`, belegt sind aber mithilfe von `{{>
