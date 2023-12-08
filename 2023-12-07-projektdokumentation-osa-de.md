@@ -731,6 +731,7 @@ bearbeitet oder gelöscht oder nach oben oder unten verschoben werden
 (siehe [Standardansicht OSA Plugin:
 Bearbeitungsmodus](#fig-screenshot-screen-ansicht-bearbeiten-modus-fragetypologien)).
 
+<a name="fig-screenshot-screen-ansicht-bearbeiten-modus-fragetypologien"></a>
 ![Standardansicht OSA Plugin:
 Bearbeitungsmodus](/images/screenshot-screen-ansicht-bearbeiten-modus-fragetypologien.svg
 "Standardansicht OSA Plugin: Bearbeitungsmodus")
@@ -739,6 +740,7 @@ Ist eine Bearbeitung durch die Nutzer/innen zum jetzigen Zeitpunkt nicht
 möglich erscheint ein
 [Durchführungsinformationsbanner](#fig-screenshot-standardansicht-osa-sperre).
 
+<a name="fig-screenshot-standardansicht-osa-sperre"></a>
 ![Standardansicht OSA Plugin:
 Durchführungsinformationsbanner](/images/screenshot-screen-ansicht-osa-sperre.svg
 "Standardansicht OSA Plugin: Durchführungsinformationsbanner")
@@ -747,6 +749,7 @@ Die [Standardansicht des OSAs aus
 Nutzer-/innensicht](#fig-screenshot-standardansicht-osa) wird gezeigt
 sollte eine Bearbeitung möglich sein.
 
+<a name="fig-screenshot-standardansicht-osa"></a>
 ![Standardansicht OSA Plugin](/images/screenshot-screen-ansicht-osa.svg
 "Standardansicht OSA Plugin")
 
@@ -755,6 +758,7 @@ Nutzer/innen, werden die Ergebnisse der ausfüllenden Person bezogen auf
 die einzelnen Fragetypologien
 [rückgemeldet](#fig-screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt).
 
+<a name="fig-screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt"></a>
 ![Standardansicht OSA Plugin:
 Ergebnisse](/images/screenshot-screen-ansicht-osa-fragetypologien-ausgefuellt.svg
 "Standardansicht OSA Plugin: Ergebnisse")
@@ -769,6 +773,7 @@ Ergebnisberichts im PDF Format dargeboten (siehe [Standardansicht OSA
 Plugin:
 Ergebnisse](#fig-screenshot-screen-ansicht-ergebnis-kat-grafik-feedback)).
 
+<a name="fig-screenshot-screen-ansicht-ergebnis-kat-grafik-feedback"></a>
 ![Standardansicht OSA Plugin: Ergebnisse mit Kategoriebeschreibung,
 Grafik, Feedbacktext und Download Button für den Download als
 PDF](/images/screenshot-screen-ansicht-ergebnis-kat-grafik-feedback.svg
@@ -794,6 +799,7 @@ Datenbank geholt. Diese werden an die Funktion
 in der lib.php übergeben. Diese Funktion berechnet alle nötigen Werte,
 um später Grafiken für die Auswertung erstellen zu können.
 
+<a name="fig-screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot"></a>
 ![Codebeispiel OSA Plugin: Funktion
 osa\_calculate\_answer\_data\_for\_boxplot](/images/screenshot-code-ansicht-osa-calculate-answer-data-for-boxplot.svg
 "Codebeispiel OSA Plugin: Funktion osa_calculate_answer_data_for_boxplot")
@@ -806,6 +812,7 @@ Zuordnung der Rückgabewerte der Funktion
 osa\_calculate\_answer\_data\_for\_boxplot zu PHP
 Variablen](#fig-screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot)).
 
+<a name="fig-screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot"></a>
 ![Codebeispiel OSA Plugin: Zuordnung der Rückgabewerte der Funktion
 osa\_calculate\_answer\_data\_for\_boxplot zu PHP
 Variablen](/images/screenshot-code-ansicht-get-data-from-function-and-assign-to-vars-osa-calculate-answer-data-for-boxplot.svg
@@ -818,6 +825,7 @@ das Template geschickt (siehe [Codebeispiel OSA Plugin: Übergebe
 mustache Variable an
 Template](#fig-screenshot-code-pass-to-mustache-template)).
 
+<a name="fig-screenshot-code-ansicht-assign-var-to-template"></a>
 ![Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache
 Variable](/images/screenshot-code-ansicht-assign-var-to-template.svg
 "Codebeispiel OSA Plugin: Zuordnung PHP Variable zu mustache Variable")
@@ -825,6 +833,7 @@ Variable](/images/screenshot-code-ansicht-assign-var-to-template.svg
 Die mustache Variablen werden an das Template viewresults.mustache
 übergeben.
 
+<a name="fig-screenshot-code-pass-to-mustache-template"></a>
 ![Codebeispiel OSA Plugin: Übergebe mustache Variable an
 Template](/images/screenshot-code-pass-to-mustache-template.svg
 "Codebeispiel OSA Plugin: Übergebe mustache Variable an Template")
@@ -858,6 +867,7 @@ als weiterer Punkt am Ende zu den
 [Einstellungsbuttons](#fig-screenshot-screen-ansicht-hinzufuegen-von-fragetypologien-und-einstellungen)
 hinzugefügt werden.
 
+<a name="fig-screenshot-code-template-vars-cat-01"></a>
 ![Codebeispiel OSA Plugin: Kategorie mit JS Variablen, welche an die
 spezifischen D3.js übergeben
 werden](/images/screenshot-code-template-vars-cat-01.svg
@@ -874,6 +884,7 @@ Kursmodulid](#fig-screenshot-db-mdl-osa-qtype-collection) ist und dabei
 die Werte in der Sort Spalte getauscht
 (edit\_questiontype\_move{up,down}.php).
 
+<a name="fig-screenshot-db-mdl-osa-qtype-collection"></a>
 ![Datenbank OSA Plugin: Tabelle
 mdl\_osa\_qtype\_collection](/images/screenshot-db-mdl-osa-qtype-collection.svg
 "Datenbank OSA Plugin: Tabelle mdl_osa_qtype_collection")
@@ -952,6 +963,7 @@ Kanbanboards mit Kanbankarten unterstützten den Entwicklungsprozess
 massiv. Eine der einfachen Kanbankarten aus dem Projekt ist in [Ansicht
 einfache Kanbankarte](#fig-screenshot-screen-kanban) zu sehen.
 
+<a name="fig-screenshot-screen-kanban"></a>
 ![Ansicht einfache Kanbankarte](/images/screenshot-screen-kanban.svg
 "Ansicht einfache Kanbankarte")
 
