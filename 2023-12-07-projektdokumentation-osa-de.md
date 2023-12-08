@@ -3,8 +3,9 @@ Projektdokumentation
 
 ***Moodle-Plugin zur integrierten und nachhaltigen Umsetzung und Anwendung von Online Self Assessments an der Pädagogischen Hochschule Weingarten***
 
-**Simon Schaudt** *Manuel Ecker*
-**E-Mail: zendi@ph-weingarten.de**
+**Simon Schaudt** **Manuel Ecker**
+
+**E-Mail: zendi\@ph-weingarten.de**
 
 
 
