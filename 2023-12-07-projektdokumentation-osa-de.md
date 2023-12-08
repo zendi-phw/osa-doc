@@ -9,7 +9,7 @@ Projektdokumentation
 
 
 
-# <a name="laufzeitkonzeptionundprogrammierung"></a>Laufzeit der Konzeption und Programmierung
+## <a name="laufzeitkonzeptionundprogrammierung"></a>Laufzeit der Konzeption und Programmierung
 
 | Laufzeit                                           | Monate  |
 | :------------------------------------------------- | :------ |
@@ -19,15 +19,15 @@ Projektdokumentation
 | Gesamtprojektlaufzeit PHokus:                      | **29**  |
 | Gesamtprojektlaufzeit TEgoDi:                      | **36**  |
 
-Übersicht über die Laufzeit der Konzeption und Programmierung
 
-# <a name="hinweisesoftwarereleasestatus"></a>Hinweise zum Softwarereleasestatus
+
+## <a name="hinweisesoftwarereleasestatus"></a>Hinweise zum Softwarereleasestatus
 
 | Hinweise zum Softwarereleasestatus \[1\]                     | Datum          |
 | :----------------------------------------------------------- | :------------- |
 | Der Code des OSA Plugins befindet sich im **Alpha** Stadium. | **2023-12-08** |
 
-Hinweise zum Softwarereleasestatus
+
 
 # <a name="moodlepluginosa"></a>Entwicklungsprojektkontext
 
@@ -192,7 +192,7 @@ der Grad der Umsetzung in folgender Tabelle beschrieben:
 | \+++               | Dies ist eine bereits programmierte Funktion. Vereinzelte Bugs sind bekannt.                    |
 | \++++              | Dies ist eine programmierte Funktion. Keine Bugs sind bekannt.                                  |
 
-Grad der Umsetzung
+
 
 ## <a name="kurzuebersichtanforderungen"></a>Kurzübersicht Anforderungen
 
@@ -214,7 +214,7 @@ Grad der Umsetzung
 | Überblick über die entsprechenden Ergebnisse vor detailliertem Feedbackbericht                 | \++++              |                                                                      |
 | Anonymisierter Download der Datensätze                                                         | \+                 |                                                                      |
 
-Anforderungen, welche beiden Projekten zugrunde liegen
+
 
 | Anforderungen aus dem Projekt TEgoDi/KomDiKoLa                              | Grad der Umsetzung | Kommentar                                                                      |
 | :-------------------------------------------------------------------------- | :----------------- | :----------------------------------------------------------------------------- |
@@ -223,7 +223,7 @@ Anforderungen, welche beiden Projekten zugrunde liegen
 | Bearbeitung der Ergebnisgrafiken (Darstellungsart und farbliche Gestaltung) | \++++              | D3.js Code muss direkt bearbeitet und in das OSA Verzeichnis platziert werden. |
 | Interaktive Ergebnisgrafiken                                                | \++++              |                                                                                |
 
-Anforderungen aus dem Projekt TEgoDi/KomDiKoLa
+
 
 | Anforderungen aus dem Projekt PHokus                                                                   | Grad der Umsetzung | Kommentar |
 | :----------------------------------------------------------------------------------------------------- | :----------------: | :-------- |
@@ -231,7 +231,7 @@ Anforderungen aus dem Projekt TEgoDi/KomDiKoLa
 | Ergebnis als Übertrag in ein Ampelsystem und Auswahl von Textbausteinen auf Basis der Ampel-Einstufung |       \++++        |           |
 | Spezifisches Feedback aufgrund der Einordnung im Ampelsystem                                           |       \++++        |           |
 
-Anforderungen aus dem Projekt PHokus
+
 
 ## <a name="kurzuebersichtimplikationen"></a>Kurzübersicht Implikationen
 
@@ -253,7 +253,7 @@ Anforderungen aus dem Projekt PHokus
 | Automatische E-Mailerinnerung, dass ein OSA ansteht, wenn bestimmte Bedingungen erfüllt sind unter Zuhilfenahme von cron | \+                 |                                                                                   |
 | Bildung von Gruppen zum späteren Vergleich mit anderen Gruppen (beispielsweise andere Kohorte)                           | \+                 |                                                                                   |
 
-Technische Implikationen aus den Anforderungen
+
 
 | Visuelle/optische Implikationen aus den Anforderungen               | Grad der Umsetzung | Kommentar                                                                |
 | :------------------------------------------------------------------ | :----------------- | :----------------------------------------------------------------------- |
@@ -261,7 +261,7 @@ Technische Implikationen aus den Anforderungen
 | Farbschema: Verwendung einer Ampel-Einstufung und Einsatz von Icons | \++++              |                                                                          |
 | Darstellung des Feedbacktexts und der Ergebnisgrafiken in der PDF   | \++                | Übertragung der Ergebnisgrafiken und Feedbacktexte in die PDF fehlt noch |
 
-Visuelle Implikationen aus den Anforderungen
+
 
 # <a name="kernfunktionenosa"></a>Kernfunktionen des OSAs
 
