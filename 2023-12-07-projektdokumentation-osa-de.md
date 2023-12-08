@@ -406,9 +406,11 @@ unterstützen.
 
 ### <a name="scribbleselbstfremdeinschaetzungosa"></a>Scribble Useransicht Selbst- und Fremdeinschätzung
 
+<a name="fig:scribble-tn-selbst-und-fremdeinschaetzung">
 ![Scribble Useransicht Selbst- und
 Fremdeinschätzung](/images/scribble-tn-selbst-und-fremdeinschaetzung.svg
 "Scribble Useransicht Selbst- und Fremdeinschätzung")
+</a>
 
 ## <a name="einstellungenfragetypologien"></a>Einstellungen zu den Fragetypologien
 
