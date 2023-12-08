@@ -1,4 +1,4 @@
-# Laufzeit der Konzeption und Programmierung {#laufzeitkonzeptionundprogrammierung}
+# <a name="laufzeitkonzeptionundprogrammierung"></a>Laufzeit der Konzeption und Programmierung
 
 | Laufzeit                                           | Monate  |
 | :------------------------------------------------- | :------ |
@@ -18,11 +18,11 @@
 
 Hinweise zum Softwarereleasestatus
 
-# Entwicklungsprojektkontext {#moodlepluginosa}
+# <a name="moodlepluginosa"></a>Entwicklungsprojektkontext
 
 TO Be ADDED
 
-# Anforderungsanalyse {#anforderungsanalyse}
+# <a name="anforderungsanalyse"></a>Anforderungsanalyse
 
 Die Anforderungen an das Online Self Assessment kommen aus Richtung von
 zwei Projekten. Einmal dem Projekt TEgoDi (Teacher Education goes
@@ -38,7 +38,7 @@ die einzelnen Nutzer/innen führen. Schlussendlich soll dadurch eine
 sukzessive Kompentenzentwicklung der Nutzer/innen angestoßen und
 ermöglicht werden.
 
-## Anforderungen, welche beiden Projekten zugrunde liegen {#anforderungentegodiphokus}
+## <a name="anforderungentegodiphokus"></a>Anforderungen, welche beiden Projekten zugrunde liegen
 
   - Erstellen von Frage-Items folgender Fragetypologien:
       - Mehrere Items des Typs Likert
@@ -60,7 +60,7 @@ ermöglicht werden.
     Feedbackbericht
   - Anonymisierter Download der Datensätze
 
-## Anforderungen aus dem Projekt TEgoDi/KomDiKoLa {#anforderungentegodi}
+## <a name="anforderungentegodi"></a>Anforderungen aus dem Projekt TEgoDi/KomDiKoLa
 
   - OSA soll zu verschiedenen Zeitpunkten des Studiums durchgeführt
     werden
@@ -69,7 +69,7 @@ ermöglicht werden.
     Gestaltung)
   - Interaktive Ergebnisgrafiken
 
-## Anforderungen aus dem Projekt PHokus {#anforderungenphokus}
+## <a name="anforderungenphokus"></a>Anforderungen aus dem Projekt PHokus
 
   - Vergleich des Mittelwerts mit einem Vergleichs-/Normwert, der
     manuell eingegeben wurde
@@ -77,9 +77,9 @@ ermöglicht werden.
     Textbausteinen auf Basis der Ampel-Einstufung
   - Spezifisches Feedback aufgrund der Einordnung im Ampelsystem
 
-## Implikationen aus den Anforderungen {#implikationenausdenanforderungen}
+## <a name="implikationenausdenanforderungen"></a>Implikationen aus den Anforderungen
 
-### Allgemeine Implikationen {#implikationenallgemein}
+### <a name="implikationenallgemein"></a>Allgemeine Implikationen
 
 Es ergeben sich folgende allgemeinen Implikationen aus den
 Anforderungen:
@@ -113,7 +113,7 @@ Anforderungen:
     können
   - Erinnerungen, dass ein OSA ansteht
 
-### Technische Implikationen {#implikationentechnisch}
+### <a name="implikationentechnisch"></a>Technische Implikationen
 
 Es ergeben sich folgende technische Implikationen aus den Anforderungen:
 
@@ -137,7 +137,7 @@ Es ergeben sich folgende technische Implikationen aus den Anforderungen:
   - Bildung von Gruppen zum späteren Vergleich mit anderen Gruppen
     (beispielsweise andere Kohorte)
 
-### Visuelle Implikationen {#implikationenvisuell}
+### <a name="implikationenvisuell"></a>Visuelle Implikationen
 
 Es ergeben sich folgende visuelle Implikationen aus den Anforderungen:
 
@@ -145,7 +145,7 @@ Es ergeben sich folgende visuelle Implikationen aus den Anforderungen:
   - Farbschema: Verwendung einer Ampel-Einstufung und Einsatz von Icons
   - Darstellung des Feedbacktexts und der Ergebnisgrafiken in der PDF
 
-# Kurzübersicht über den Fortschritt der Entwicklung des OSA Plugins {#kurzuebersicht}
+# <a name="kurzuebersicht"></a>Kurzübersicht über den Fortschritt der Entwicklung des OSA Plugins
 
 Die Kurzüberischt über den Fortschritt der Entwicklung des OSA Plugins
 soll zeigen welche Funktionen bereits voll funktionsfähig sind und an
@@ -161,7 +161,7 @@ der Grad der Umsetzung in folgender Tabelle beschrieben:
 
 Grad der Umsetzung
 
-## Kurzübersicht Anforderungen {#kurzuebersichtanforderungen}
+## <a name="kurzuebersichtanforderungen"></a>Kurzübersicht Anforderungen
 
 | Anforderungen, welche beiden Projekten zugrunde liegen                                         | Grad der Umsetzung | Kommentar                                                            |
 | :--------------------------------------------------------------------------------------------- | :----------------- | :------------------------------------------------------------------- |
@@ -200,7 +200,7 @@ Anforderungen aus dem Projekt TEgoDi/KomDiKoLa
 
 Anforderungen aus dem Projekt PHokus
 
-## Kurzübersicht Implikationen {#kurzuebersichtimplikationen}
+## <a name=""></a>Kurzübersicht Implikationen {#kurzuebersichtimplikationen}
 
 | Technische Implikationen aus den Anforderungen                                                                           | Grad der Umsetzung | Kommentar                                                                         |
 | :----------------------------------------------------------------------------------------------------------------------- | :----------------- | :-------------------------------------------------------------------------------- |
@@ -230,7 +230,7 @@ Technische Implikationen aus den Anforderungen
 
 Visuelle Implikationen aus den Anforderungen
 
-# Kernfunktionen des OSAs
+# <a name=""></a>Kernfunktionen des OSAs
 
 Die Kernfunktionen des OSAs sollen folgende Aspekte umfassen:
 
