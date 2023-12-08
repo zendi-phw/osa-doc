@@ -978,7 +978,7 @@ Testpersonen können gezogen werden:
 # <a name="ausblick"></a>Ergebnisbewertung und Ausblick
 
 Neben den in Kapitel [„Exemplarische technische
-Umsetzung“](#dest:zukuenftigeoptiontemplate) erwähnten Erweiterung des
+Umsetzung“](dest:zukuenftigeoptiontemplate) erwähnten Erweiterung des
 Plugins mit Darstellungsformen der Ergebnisse mithilfe von Templates
 sind weitere Schritte zur Verbesserung der Funktionalität und des
 Umfangs des Plugins geplant. Dazu gehören eine Anpassung der Templates
