@@ -1,6 +1,4 @@
 
-{TOC}
-
 
 # <a name="laufzeitkonzeptionundprogrammierung"></a>Laufzeit der Konzeption und Programmierung
 
