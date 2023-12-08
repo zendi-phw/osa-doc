@@ -406,7 +406,7 @@ unterstützen.
 
 ### <a name="scribbleselbstfremdeinschaetzungosa"></a>Scribble Useransicht Selbst- und Fremdeinschätzung
 
-<a name="fig:scribble-tn-selbst-und-fremdeinschaetzung"></a>
+<a name="fig-scribble-tn-selbst-und-fremdeinschaetzung"></a>
 ![Scribble Useransicht Selbst- und
 Fremdeinschätzung](/images/scribble-tn-selbst-und-fremdeinschaetzung.svg
 "Scribble Useransicht Selbst- und Fremdeinschätzung")
@@ -433,7 +433,7 @@ Nutzer/innen.
 
   - Darstellung der Checkboxen mit Beschreibung (Checkboxtext) für
     Teilnehmende des OSA (siehe [Scribble Useransicht Selbst- und
-    Fremdeinschätzung](#fig:scribble-tn-selbst-und-fremdeinschaetzung))
+    Fremdeinschätzung](#fig-scribble-tn-selbst-und-fremdeinschaetzung))
   - Darstellung der Checkboxen zum Ankreuzen für TN des OSAs, welche
     andere TN bewerten
   - Darstellung der Checkboxen bei der Auswertung
