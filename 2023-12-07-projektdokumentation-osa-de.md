@@ -256,7 +256,7 @@ selbständigen Steuerung durch die lehrende Person, freigegeben werden,
 sodass es jedem Kurslehrenden und jeder Kurslehrende frei gestellt ist
 OSAs zu teilen.
 
-### Konfigurationsoptionen und Funktionen
+### <a name="beschreibungadmineinstellungen"></a>Konfigurationsoptionen und Funktionen
 
   - Setze die Anzahl an angezeigten X (3) Assessments im Dashboard -\>
     Nur Admin kann diese Einstellung festlegen -\> Schreibe in/hole von
@@ -281,16 +281,16 @@ OSAs zu teilen.
       - Automatische Seitennummerierung -\> Standard=Ja -\> Durch
         Lehrende individuell änderbar -\> Hole aus/schreibe in DB
 
-### Realisierungsaspekte
+### <a name="beschreibungergebnisadmineinstellungen"></a>Realisierungsaspekte
 
   - Setze Standardeinstellungen (Durch Lehrende veränderbar/nicht veränderbar) für OSA Elemente (Frage/Struktur/Dashboard)
 
-### Scribble Admin-Einstellungen
+### <a name="scribbleadmineinstellungen"></a>Scribble Admin-Einstellungen
 
 ![Scribble Admin-Einstellungen](/images/scribble-adminsettings.svg
 "Scribble Admin-Einstellungen")
 
-## Initiale Erstellung einer OSA Aktivität
+## <a name="ersteanlageosa"></a>Initiale Erstellung einer OSA Aktivität
 
 Bei der ersten Anlage des OSAs werden die Grundeinstellungen durch die
 Lehrenden festgelegt. Neben dem Titel, der Beschreibung der OSA
@@ -299,7 +299,7 @@ Anzahl an erlaubten Versuchen, der Zeit zwischen den Versuchen der
 Nutzer/innen, die zukünftige Option zum Teilen des OSA als Vorlage und
 der Titel des Projekts eingestellt werden.
 
-### Konfigurationsoptionen und Funktionen
+### <a name="beschreibungersteanlageosa"></a>Konfigurationsoptionen und Funktionen
 
   - Grundeinstellungsmöglichkeiten für die erste Anlage des OSAs:
       - Grundinformationen des OSA im Menüpunkt “Allgemeines”
@@ -329,7 +329,7 @@ der Titel des Projekts eingestellt werden.
             von/schreibe in DB -\> Standardeinstellung=Nein -\> In
             Adminsettings global ein-/ausschaltbar
 
-### Realisierungsaspekte
+### <a name="beschreibungergebnisersteanlageosa"></a>Realisierungsaspekte
 
   - Lege Grundstruktur des OSAs für weiteres Hinzufügen von
     Inhaltselementen (Frage-/Strukturelementen) an
@@ -340,20 +340,20 @@ der Titel des Projekts eingestellt werden.
     Forschungszwecke
   - Ermögliche das Teilen von OSAs als Vorlage
 
-### Scribble erste Anlage des OSAs
+### <a name="scribbleersteanlageosa"></a>Scribble erste Anlage des OSAs
 
 ![Scribble Initiale Erstellung einer OSA
 Aktivität](/images/scribble-erste-anlage-des-osa.svg
 "Scribble Initiale Erstellung einer OSA Aktivität")
 
-## Useransicht Selbst- und Fremdeinschätzung
+## <a name="useransichtselbstundfremdeinschaetzung"></a>Useransicht Selbst- und Fremdeinschätzung
 
 Die Useransicht dient der Eingabe der Selbsteinschätzungen durch die
 Nutzenden. Dabei stehen verschiedene Fragetypen zur Verfügung. Die
 Fremdeinschätzung soll den Reflexionsprozess der teilnehmenden Person
 unterstützen.
 
-### Konfigurationsoptionen und Funktionen
+### <a name="beschreibunguseransichtselbstundfremdeinschaetzung"></a>Konfigurationsoptionen und Funktionen
 
   - Modi: Selbstbewertung, Fremdbewertung
       - Selbstbewertung
@@ -397,26 +397,26 @@ unterstützen.
       - Hole/schreibe aktuellen Bearbeitungsstatus
         (Seitenzahl/abgeschlossen bzw. nicht abgeschlossen) aus/in DB
 
-### Realisierungsaspekte
+### <a name="beschreibungergebnisuseransichtselbstundfremdeinschaetzung"></a>Realisierungsaspekte
 
   - Holen der Daten und Schreiben des aktuellen Fortschritts der Selbst-
     und Fremdbewertung in die DB
 
-### Scribble Useransicht Selbst- und Fremdeinschätzung
+### <a name="scribbleselbstfremdeinschaetzungosa"></a>Scribble Useransicht Selbst- und Fremdeinschätzung
 
 ![Scribble Useransicht Selbst- und
 Fremdeinschätzung](/images/scribble-tn-selbst-und-fremdeinschaetzung.svg
 "Scribble Useransicht Selbst- und Fremdeinschätzung")
 
-## Einstellungen zu den Fragetypologien
+## <a name="einstellungenfragetypologien"></a>Einstellungen zu den Fragetypologien
 
 Die Fragetypologien ermöglichen später, je nach Einsatz, sowohl eine
 quantitative als auch eine qualitative Auswertung der Antworten der
 Nutzer/innen.
 
-### Typ Multiple Choice
+### <a name="fragetypologiemultiplechoice"></a>Typ Multiple Choice
 
-#### Konfigurationsoptionen und Funktionen
+#### <a name="beschreibungfragetypologiemultiplechoice"></a>Konfigurationsoptionen und Funktionen
 
   - Einstellungsmöglichkeit wie viele Checkboxen das Element haben soll.
       - Minimum=1 Maximum=20 -\> Schreibe Einstellung für Element in DB
@@ -425,7 +425,7 @@ Nutzer/innen.
       - Weitere Einstellungen werden dynamisch ergänzt auf Basis
         aktueller Stufenanzahl
 
-#### Realisierungsaspekte
+#### <a name="beschreibungergebnisfragetypologiemultiplechoice"></a>Realisierungsaspekte
 
   - Darstellung der Checkboxen mit Beschreibung (Checkboxtext) für
     Teilnehmende des OSA (siehe [Scribble Useransicht Selbst- und
@@ -435,9 +435,9 @@ Nutzer/innen.
   - Darstellung der Checkboxen bei der Auswertung
   - Weiterverarbeitung durch D3.js
 
-### Typ Likert
+### <a name="fragetypologielikert"></a>Typ Likert
 
-#### Konfigurationsoptionen und Funktionen
+#### <a name="beschreibungfragetypologielikert"></a>Konfigurationsoptionen und Funktionen
 
   - Einstellungsmöglichkeit wie viele Stufen die Likertskala haben soll.
       - Minimum=2 Maximum=10 -\> Schreibe Einstellung für Element in DB
@@ -449,7 +449,7 @@ Nutzer/innen.
         aus DB
       - Kurze Beschreibung der Stufe -\> Schreibe/hole aus DB
 
-#### Realisierungsaspekte
+#### <a name="beschreibungergebnisfragetypologielikert"></a>Realisierungsaspekte
 
   - Darstellung der Likertskala zum Ankreuzen für Teilnehmende des OSAs
     (siehe [Scribble Useransicht Selbst- und
@@ -459,9 +459,9 @@ Nutzer/innen.
   - Darstellung der Likertskala bei der Auswertung
   - Weiterverarbeitung durch D3.js
 
-### Typ offene Frage
+### <a name="fragetypologieoffenefragetextelement"></a>Typ offene Frage
 
-#### Konfigurationsoptionen und Funktionen
+#### <a name="beschreibungfragetypologieoffenefragetextelement"></a>Konfigurationsoptionen und Funktionen
 
   - Einstellungsmöglichkeit zur Beschreibung des Textelements, damit
     später in das erzeugte Textfeld Freitext eingetragen werden kann.
@@ -469,7 +469,7 @@ Nutzer/innen.
         DB (für Screenreader)
       - Textfeldinhalt Schreibe in/hole aus DB
 
-#### Realisierungsaspekte
+#### <a name="beschreibungergebnisfragetypologieoffenefragetextelement"></a>Realisierungsaspekte
 
   - Darstellung des Textfelds für Teilnehmende des OSAs (siehe [Scribble
     Useransicht Selbst- und
@@ -478,9 +478,9 @@ Nutzer/innen.
   - Darstellung des Textfelds bei der Auswertung
   - Weiterverarbeitung durch D3.js?
 
-### Typ Antwortskala in Form eines Sliders
+### <a name="fragetypologieantwortskalaslider"></a>Typ Antwortskala in Form eines Sliders
 
-#### Konfigurationsoptionen und Funktionen
+#### <a name="beschreibungfragetypologieantwortskalaslider"></a>Konfigurationsoptionen und Funktionen
 
   - Einstellungsmöglichkeit des Sliders.
       - Festlegung der Stufen
@@ -495,7 +495,7 @@ Nutzer/innen.
         Stufen -\> Speichere in/hole aus DB
       - Speichere Wert als Fließkommazahl
 
-#### Realisierungsaspekte
+#### <a name="beschreibungergebnisfragetypologieantwortskalaslider"></a>Realisierungsaspekte
 
   - Darstellung des Sliders für Teilnehmende des OSAs (siehe
     [Useransicht Selbst- und Fremdeinschätzung]())
@@ -503,9 +503,9 @@ Nutzer/innen.
   - Darstellung des Sliders bei der Auswertung
   - Weiterverarbeitung durch D3.js
 
-## Feedbackeinstellungen
+## <a name="feedbackeinstellungen"></a>Feedbackeinstellungen
 
-### Konfigurationsoptionen und Funktionen
+### <a name="beschreibungfeedbackeinstellungen"></a>Konfigurationsoptionen und Funktionen
 
   - Auswertungseinstellungen:
       - Biete Möglichkeit zur Anpassung der Anzahl der
@@ -527,20 +527,20 @@ Nutzer/innen.
           - Text -\> Hole von/schreibe in DB
           - Links -\> Hole von/schreibe in DB
 
-### Realisierungsaspekte
+### <a name="beschreibungergebnisfeedbackeinstellungen"></a>Realisierungsaspekte
 
   - Biete Möglichkeit der Verknüpfung von Auswertungsbedingungen
   - Biete Möglichkeit kategorienhaftes Feedback/kategorienhafte
     Empfehlungen zu geben
 
-### Scribble Feedbackeinstellungen
+### <a name="scribblefeedbackeinstellungen"></a>Scribble Feedbackeinstellungen
 
 ![Scribble Feedbackeinstellungen](/images/scribble-feedback.svg
 "Scribble Feedbackeinstellungen")
 
-# Idee für Zusatz-Plugin
+# <a name="ideezusatzplugin"></a>Idee für Zusatz-Plugin
 
-## OSA Dashboard
+## <a name="zusatzosadashboard"></a>OSA Dashboard
 
 Die Idee des OSA Dashboards ist, den Nutzer/innen direkt nach der
 Anmeldung in Moodle eine Übersicht über die nächsten OSA Durchführungen
@@ -548,7 +548,7 @@ zu geben und den aktuellen Status der Durchführungen - Wird
 durchgeführt, Erledigt - anzuzeigen. Des Weiteren sollen jeweils die
 aktuellen Empfehlungen eines OSAs als Popup angezeigt werden können.
 
-### Konfigurationsoptionen und Funktionen
+### <a name="beschreibungzusatzosadashboard"></a>Konfigurationsoptionen und Funktionen
 
   - Grundansicht des OSAs im Dashboard:
       - Zeige die letzten X (3) Assessments: Hole von DB -\> In
@@ -561,7 +561,7 @@ aktuellen Empfehlungen eines OSAs als Popup angezeigt werden können.
           - Hole entsprechende Empfehlung zur Leistungsstufe/Kategorie
             aus DB inklusive Links zu weiteren Materialien
 
-### Realisierungsaspekte
+### <a name="beschreibungergebniszusatzosadashboard"></a>Realisierungsaspekte
 
   - Stelle Übersicht über aktuelle, vergangene und zukünftige
     Assessments inklusive des Status (in Bearbeitung/Erledigt) dar
@@ -569,7 +569,7 @@ aktuellen Empfehlungen eines OSAs als Popup angezeigt werden können.
   - Biete Möglichkeit sich direkt Empfehlungen und das zugehörige
     Diagramm anzeigen zu lassen
 
-### Scribble Zusatz-Plugin OSA Dashboard
+### <a name="scribblezusatzplugin"></a>Scribble Zusatz-Plugin OSA Dashboard
 
 ![Scribble Zusatz-Plugin OSA
 Dashboard](/images/scribble-osa-dashboard.svg
@@ -579,7 +579,7 @@ Dashboard](/images/scribble-osa-dashboard.svg
 Detailansicht](/images/scribble-osa-dashboard-detail.svg
 "Scribble Zusatz-Plugin OSA Dashboard Detailansicht")
 
-# Programmierung
+# <a name="programmierung"></a>Programmierung
 
 Die Programmierung des OSA Plugins beruht auf PHP, JS, Mustache,
 verschiedenen Moodle APIs und D3.js. D3.js hat Ähnlichkeiten zu
@@ -591,14 +591,14 @@ D3.js umsetzbar. Damit ist es zwar möglicherweise aufwändiger in der
 Erstellung dafür aber vielseitigst und browserübergreifend für alle
 Arten von Grafiken zur Datenvisualisierung geeignet.
 
-## Ordnerstruktur OSA Plugin
+## <a name="ordnerstrukturosa"></a>Ordnerstruktur OSA Plugin
 
 Der Aufbau des OSA Plugins ist in folgender Ordnerstruktur abgebildet:
 
 ![Ordnerstruktur OSA Plugin](/images/ordnerstruktur-osa-plugin.svg
 "Ordnerstruktur OSA Plugin")
 
-### OSA Ordner
+### <a name="osaordner"></a>OSA Ordner
 
 Der OSA Ordner enthält unter anderem Dateien zur Einstellung von
 Admin-Einstellungen (settings.php), zur Darstellung der OSA Oberfläche
@@ -611,12 +611,12 @@ Nutzer/innen, eine Datei zur Darstellung der Ergebnisseite
 als PDF durch die Verwendung von TCPDF. Die zugehörigen Klassen befinden
 sich in `/classes/form/`.
 
-### Classes Ordner mit Unterordner event
+### <a name="classesordnerevent"></a>Classes Ordner mit Unterordner event
 
 In diesem Ordner sind die Events gespeichert. Klassen werden automatisch
 geladen.
 
-### db Ordner
+### <a name="dbordner"></a>db Ordner
 
 Der db Ordner enthält unter anderem bereits erstellte Event Handler für
 das Plugin (events.php), die Berechtigungen für die einzelnen Rollen
@@ -654,17 +654,17 @@ Datenbank ist in mehrere Tabellen aufgeteilt:
     Speicherung von unteren und oberen Grenzwerten und je nach
     berechnetem Wert das entsprechende Feedback.
 
-### lang Ordner mit Unterordner en
+### <a name="langordner"></a>lang Ordner mit Unterordner en
 
 Im lang Ordner mit Unterordner en werden die Sprachdateien für das
 Plugin gespeichert. Weitere Übersetzungen können hier beispielsweise
 unter `/lang/de/` in Zukunft hinzugefügt werden.
 
-### pix Ordner
+### <a name="pixordner"></a>pix Ordner
 
 Im pix Ordner ist das Icon des Plugins abgelegt.
 
-### templates Ordner
+### <a name="templatesordner"></a>templates Ordner
 
 Im templates Ordner werden alle Templates gespeichert. Dazu gehören
 unter anderem je ein Template für die Darstellung der Fragetypologien
@@ -681,9 +681,9 @@ geladen (z.B. boxplot.mustache). Diese erlauben, mit nur wenig
 Kapitel [Exemplarische technische
 Umsetzung](#exemplarischetechnischeumsetzung)).
 
-## Exemplarische grafische und technische Umsetzung an verschiedenen Stellen des OSA Plugins
+## <a name="exemplarischeumsetzung"></a>Exemplarische grafische und technische Umsetzung an verschiedenen Stellen des OSA Plugins
 
-### Exemplarische grafische Umsetzung
+### <a name="exemplarischegrafischeumsetzung"></a>Exemplarische grafische Umsetzung
 
 Das Design des Plugins ist an das Standardtheme von Moodle 4.x angelehnt
 und ist sowohl auf klassischen Desktopsystemen als auch auf mobilen
@@ -774,9 +774,9 @@ Feedbackgrafik
 KomDiKoLa](/images/screenshot-exemplarische-grafik-komdikola.svg
 "Standardansicht OSA Plugin: Exemplarische Umsetzung D3.js Feedbackgrafik KomDiKoLa")
 
-### Exemplarische technische Umsetzung
+### <a name="exemplarischetechnischeumsetzung"></a>Exemplarische technische Umsetzung
 
-#### Technische Implementierung von Modularität in der Ergebnisdarstellung
+#### <a name="technischeimplementierungmodularitaet"></a>Technische Implementierung von Modularität in der Ergebnisdarstellung
 
 Im Folgenden wird anhand von Codebeispielen kurz beschrieben, wie in der
 Ergebnisdarstellung technisch Modularität implementiert wird.
@@ -855,7 +855,7 @@ spezifischen D3.js übergeben
 werden](/images/screenshot-code-template-vars-cat-01.svg
 "Codebeispiel OSA Plugin: Kategorie mit JS Variablen, welche an die spezifischen D3.js übergeben werden")
 
-#### Technische Besonderheit bei der Änderung der Fragenanordnung
+#### <a name="technischebesonderheitaenderungfragenanordnung"></a>Technische Besonderheit bei der Änderung der Fragenanordnung
 
 Technische Besonderheiten zeigen sich auch bei der Option die
 Fragenanordnung zu ändern. Alleine PHP und die Datenbank reichen aus, um
@@ -870,7 +870,7 @@ die Werte in der Sort Spalte getauscht
 mdl\_osa\_qtype\_collection](/images/screenshot-db-mdl-osa-qtype-collection.svg
 "Datenbank OSA Plugin: Tabelle mdl_osa_qtype_collection")
 
-#### Technische Konzeption Export der Ergebnisse in einer PDF
+#### <a name="technischekonzeptionexportpdf"></a>Technische Konzeption Export der Ergebnisse in einer PDF
 
 Für den Export der Ergebnisse im PDF Format werden einerseits die
 spezifischen Nutzerdaten der entsprechenden Durchführungsversuche
@@ -896,7 +896,7 @@ können. Konzeptionell würde dabei folgendermaßen vorgegangen:
     ein mit TCPDF verwendbares Format gewandelt und die Ergebnisgrafiken
     somit in der PDF dargestellt werden.
 
-#### Technische Funktion der Speicherung von Bildern aus dem Moodle html Editor
+#### <a name="technischespeicherungbilderhtmleditor"></a>Technische Funktion der Speicherung von Bildern aus dem Moodle html Editor
 
 Die Moodle Forms API beschreibt unter anderem die Speicherung von
 Dateien, welche beispielsweise mithilfe des Moodle Forms Editor\[9\]
@@ -934,7 +934,7 @@ Schritte nötig:
   - Leider besteht beim Generieren und Darbieten der Datei ein noch zu
     lösendes Problem.
 
-## Vorgehensweise in der Programmierung
+## <a name="vorgehensweiseinderprogrammierung"></a>Vorgehensweise in der Programmierung
 
 Die Programmierung des OSAs war von einer agilen Vorgehensweise geprägt.
 Dabei wurden verschiedene Hilfsmittel und Methoden verwendet. Unter
@@ -947,7 +947,7 @@ einfache Kanbankarte](#fig:screenshot-screen-kanban) zu sehen.
 ![Ansicht einfache Kanbankarte](/images/screenshot-screen-kanban.svg
 "Ansicht einfache Kanbankarte")
 
-# Anwendertests mit der Zielgruppe
+# <a name="anwendertestszielgruppe"></a>Anwendertests mit der Zielgruppe
 
 Die Zielgruppe des ersten Anwendertests sind Personen, welche OSAs
 erstellen und über die Zeit hinweg pflegen sollen. In unserem Fall
@@ -973,7 +973,7 @@ Testpersonen können gezogen werden:
   - Es wäre wünschenswert eine Option für das einfache Duplizieren von
     Frage-Items verwenden zu können.
 
-# Ergebnisbewertung und Ausblick
+# <a name="ausblick"></a>Ergebnisbewertung und Ausblick
 
 Neben den in Kapitel [„Exemplarische technische
 Umsetzung“](#dest:zukuenftigeoptiontemplate) erwähnten Erweiterung des
@@ -997,7 +997,7 @@ Zusatzentwicklung für das Online Self Assessment. Dieses könnte auch
 eine automatische Erinnerung an das nächste anstehende OSA,
 beispielsweise per E-Mail, beinhalten.
 
-# Hinweise zur Veröffentlichung der Dokumentation und des Pluginprogrammcodes
+# <a name="hinweiseveroeffentlichung"></a>Hinweise zur Veröffentlichung der Dokumentation und des Pluginprogrammcodes
 
   - **2023-12-08**: Das OSA Plugin befindet sich im Alpha Stadium. Nach
     (Riddell & Brown, 2023) ist Pre-Release Software, zu welchem auch
@@ -1006,11 +1006,9 @@ beispielsweise per E-Mail, beinhalten.
     enthält. Trotz sorgfältigster Prüfung kann Pre-Release Software im
     Extremfall zu Datenverlust führen.
 
-<div id="refs">
 
-</div>
 
-# Literaturverzeichnis
+# <a name="literaturverzeichnis"></a>Literaturverzeichnis
 
 Bostock, M., Ogievetsky, V., & Heer, J. (2011). D3: Data-Driven
 Documents. IEEE Transactions on Visualization and Computer Graphics
